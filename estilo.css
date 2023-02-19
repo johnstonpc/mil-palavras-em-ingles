@@ -46,3 +46,9 @@ margin-right: 0%;
     text-align: center;
     row-gap: 0px;
 }
+.bt{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+}
