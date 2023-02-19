@@ -13,16 +13,14 @@
 body{
     background-color: black;
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    justify-content: center;
+    flex-direction: row;
+    
 }
-button{
-   margin-left: 45%;
-    font-size: 40px;
-}
+
 .main{
  width: 600px;
- margin-top: 10%;
+ margin-top: 15%;
 }
 
 #conteudoIng{
