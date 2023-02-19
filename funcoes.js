@@ -2006,6 +2006,6 @@ var ingues = ['the',
           setTimeout(function() {
           document.getElementById("conteudoPort").innerHTML=portugues[incremento];
           document.getElementById("conteudoIng").innerHTML=ingues[incremento];
-          }, 890*i);
+          }, 980*i);
         }
       }
