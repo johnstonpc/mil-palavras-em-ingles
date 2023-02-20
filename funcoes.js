@@ -2317,7 +2317,7 @@ if( incremento ==9){
 if( incremento ==10){
 document.getElementById("conteudoIng").style.color = 'black';
 document.getElementById("conteudoPort").style.color = 'black';
-document.getElementById("corbranca").style.backgroundColor ='White'
+document.getElementById("corbranca").style.backgroundColor ='grey'
 }
 
 
