@@ -997,7 +997,7 @@ var portugues = ['o a os as',
   'dentes',
   'concha',
   'pescoço',
-  'sobremesa']
+  'sobremesa','parabéns']
 
 var ingues = ['the',
   'of',
@@ -1998,7 +1998,7 @@ var ingues = ['the',
   'teeth',
   'shell',
   'neck',
-  'dessert']
+  'dessert',':)']
 var inguesN = ['one',
   'two',
   'three',
