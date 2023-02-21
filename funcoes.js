@@ -36,7 +36,7 @@ var portugues = ['o a os as',
   'pode /lata',
   'fora',
   'outro',
-  'eram /esavam',
+  'eram /estavam',
   'todo',
   'lá',
   'quando',
@@ -353,7 +353,7 @@ var portugues = ['o a os as',
   'melhor',
   'hora',
   'melhor',
-  'VERDADEIRO',
+  'verdadeiro',
   'durante',
   'cem',
   'cinco',
@@ -2252,7 +2252,7 @@ function leiaLista() {
     setTimeout(function () {
       document.getElementById("conteudoPort").innerHTML = portugues[incremento];
       document.getElementById("conteudoIng").innerHTML = ingues[incremento];
-    }, 890 * i);
+    }, 999 * i);
   }
 }
 
