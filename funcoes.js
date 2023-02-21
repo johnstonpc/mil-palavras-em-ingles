@@ -2229,7 +2229,7 @@ var portuguesC = [
   'Laranja',
   'Cinza',
   'Branco',
-  'Preto']
+  'Preto','❤️']
 var inguesC = [
   'Blue',
   'Yellow',
@@ -2241,7 +2241,7 @@ var inguesC = [
   'Orange',
   'Grey/Gray',
   'White',
-  'Black']
+  'Black','❤️']
 
 
 
