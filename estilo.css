@@ -1,15 +1,22 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .conteiner1{
     display: flex;
     justify-content: center;
     margin-top: 15%;
     background-color: black;
+   
+    
 
 }
 body{
     height: 100%;
     background-color: black;
+
 }
-#conteudoPort{
+#conteudoPort, #conteudoPortz{
 width: 500px;
 color: rgb(86, 223, 58);
 font-size: 35px;
@@ -20,22 +27,19 @@ margin-right: 0%;
 }
 
 
-#conteudoIng{
+#conteudoIng, #conteudoIngz{
  
  width: 100%;
  color: rgb(238, 37, 37);
  font-size: 70px;
  margin-top: 0%;
  margin-left: 0%;
-margin-right: 0%;
+ margin-right: 0%;
 }
 
-.conteiner2{
-    border: solid 4px rgb(154, 6, 223);
-    border-radius: 30px;
-}
 
-.conteiner2{
+
+.conteiner2, .conteiner22{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -45,10 +49,30 @@ margin-right: 0%;
     background-color: black;
     text-align: center;
     row-gap: 0px;
+    border: solid 4px rgb(154, 6, 223);
+    border-radius: 30px;
 }
 .bt{
     display: flex;
     text-align: center;
     justify-content: center;
     gap: 10px;
+    margin-bottom: 200%;
+    margin-top: 15px;
+}
+
+p,a{
+    color: rgb(154, 6, 223);
+    cursor: pointer;
+}
+
+.conteiner11{
+    display: flex;
+    justify-content: center;
+    margin-top: 60%;
+    background-color: black;
+    
+    
+    
+
 }
