@@ -4258,7 +4258,7 @@ function leiaLista() {
     setTimeout(function () {
       document.getElementById("conteudoPort").innerHTML = portugues[incremento];
       document.getElementById("conteudoIng").innerHTML = ingues[incremento];
-    }, 890 * i);
+    }, 1000 * i);
   }
 }
 
@@ -4347,6 +4347,6 @@ function atrasado() {
       setTimeout(function () {
         document.getElementById("conteudoPortz").innerHTML = portuguesa[incremento];
         document.getElementById("conteudoIngz").innerHTML = inguesa[incremento];
-      }, 900 * i);
+      },1000 * i);
     }
   }
