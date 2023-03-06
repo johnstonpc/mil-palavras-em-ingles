@@ -997,7 +997,7 @@ var portugues = ['o a os as',
   'dentes',
   'concha',
   'pescoço',
-  'sobremesa']
+  'sobremesa','Parabéns']
 
 var ingues = ['the',
   'of',
@@ -1998,7 +1998,7 @@ var ingues = ['the',
   'teeth',
   'shell',
   'neck',
-  'dessert']
+  'dessert','❤️']
 var inguesN = ['one',
   'two',
   'three',
@@ -3243,7 +3243,7 @@ var inguesC = [
   'dentes',
   'concha',
   'pescoço',
-  'sobremesa']
+  'sobremesa','Parabéns']
 
 var inguesa = [' ',' ',' ',' ','the',
   'of',
@@ -4244,7 +4244,7 @@ var inguesa = [' ',' ',' ',' ','the',
   'teeth',
   'shell',
   'neck',
-  'dessert']
+  'dessert','❤️']
 
 
 
@@ -4347,6 +4347,24 @@ function atrasado() {
       setTimeout(function () {
         document.getElementById("conteudoPortz").innerHTML = portuguesa[incremento];
         document.getElementById("conteudoIngz").innerHTML = inguesa[incremento];
+
       },1000 * i);
     }
   }
+
+var bola = 0
+  function alterarEspessura() {
+
+  for (var i = 0; i < 1000;i++) {
+   
+    setTimeout(function () {
+      document.querySelector('.contador').style.width = bola + "px";
+      document.querySelector('.contador1').style.width = bola + "px";
+      bola+=0.6
+      
+
+    },1000 * i);
+  }
+}
+
+alterarEspessura()
